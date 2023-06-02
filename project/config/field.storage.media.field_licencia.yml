@@ -1,0 +1,20 @@
+uuid: 85a4fb3b-ad2b-4222-9f9a-d4b6cd011b75
+langcode: es
+status: true
+dependencies:
+  module:
+    - media
+    - taxonomy
+id: media.field_licencia
+field_name: field_licencia
+entity_type: media
+type: entity_reference
+settings:
+  target_type: taxonomy_term
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

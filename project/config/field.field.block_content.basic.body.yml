@@ -1,5 +1,5 @@
-uuid: 3a38e428-3c63-406e-bf9d-9897dd99735a
-langcode: en
+uuid: 302e788a-f1c6-4c01-b22f-0d8858fa8d0f
+langcode: es
 status: true
 dependencies:
   config:
@@ -13,7 +13,7 @@ id: block_content.basic.body
 field_name: body
 entity_type: block_content
 bundle: basic
-label: Body
+label: Cuerpo
 description: ''
 required: false
 translatable: true

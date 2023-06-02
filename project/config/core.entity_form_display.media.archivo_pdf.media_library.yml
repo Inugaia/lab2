@@ -1,0 +1,32 @@
+uuid: a2ab7055-8290-443b-820c-0067b6df6be5
+langcode: es
+status: true
+dependencies:
+  config:
+    - core.entity_form_mode.media.media_library
+    - field.field.media.archivo_pdf.field_licencia
+    - field.field.media.archivo_pdf.field_media_file
+    - field.field.media.archivo_pdf.field_pdf
+    - media.type.archivo_pdf
+id: media.archivo_pdf.media_library
+targetEntityType: media
+bundle: archivo_pdf
+mode: media_library
+content:
+  name:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  field_licencia: true
+  field_media_file: true
+  field_pdf: true
+  langcode: true
+  path: true
+  status: true
+  uid: true

@@ -1,5 +1,5 @@
-uuid: 85d0d2c3-ec57-4755-933b-c769a39ccaf2
-langcode: en
+uuid: 0e0f3023-55bb-4529-9c98-711126d3b8c9
+langcode: es
 status: true
 dependencies:
   module:
@@ -7,7 +7,7 @@ dependencies:
 _core:
   default_config_hash: 2B9uF8NL5gutNKSdPRAhhAsDWFZZG1PJOBmx0aBGd_0
 id: node_publish_action
-label: 'Publish content'
+label: 'Publicar contenido'
 type: node
 plugin: 'entity:publish_action:node'
 configuration: {  }

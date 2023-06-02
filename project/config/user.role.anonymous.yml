@@ -1,5 +1,5 @@
-uuid: 0aff576a-d871-49b7-9620-62b827108013
-langcode: en
+uuid: 38792d5f-e6c5-4e06-b167-fb8a0ca4e1a8
+langcode: es
 status: true
 dependencies:
   config:
@@ -8,12 +8,13 @@ dependencies:
     - comment
     - contact
     - filter
+    - media
     - search
     - system
 _core:
   default_config_hash: 6WavjUYXIegP9AAg2zXGx54MWIVoomC3SZhNiqe-Dyk
 id: anonymous
-label: 'Anonymous user'
+label: 'Usuario anónimo'
 weight: 0
 is_admin: false
 permissions:
@@ -22,3 +23,4 @@ permissions:
   - 'access site-wide contact form'
   - 'search content'
   - 'use text format restricted_html'
+  - 'view media'

@@ -1,11 +1,11 @@
-uuid: 038a5ca3-ab62-4849-9c8a-b8335effa857
-langcode: en
+uuid: d989c9a1-3992-43d4-9e17-fd2126b4f4c7
+langcode: es
 status: true
 dependencies: {  }
 _core:
   default_config_hash: LswCVLg8z4Zk1u6pV1Dpj1qUj5YY2CQ7_ojx7bJQ8qk
 name: wide
-label: 'Wide (1090)'
+label: 'Ancho (1090)'
 effects:
   09959c15-59ce-4f6d-90df-e2d7cf32bce5:
     uuid: 09959c15-59ce-4f6d-90df-e2d7cf32bce5

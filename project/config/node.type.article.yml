@@ -1,10 +1,10 @@
-uuid: 736d7790-d431-4774-bf42-069b64ddc825
-langcode: en
+uuid: 39c29818-e37e-41c6-b7ea-fe17b927ab93
+langcode: es
 status: true
 dependencies: {  }
 _core:
   default_config_hash: AeW1SEDgb1OTQACAWGhzvMknMYAJlcZu0jljfeU3oso
-name: Article
+name: Artículo
 type: article
 description: 'Use <em>articles</em> for time-sensitive content like news, press releases or blog posts.'
 help: ''

@@ -1,5 +1,5 @@
-uuid: 6112a331-46b6-4385-8fb0-718cd29dd3fb
-langcode: en
+uuid: 84a5214f-38ca-4a06-be2d-9096eb26c04b
+langcode: es
 status: true
 dependencies:
   module:
@@ -16,7 +16,7 @@ provider: null
 plugin: search_form_block
 settings:
   id: search_form_block
-  label: 'Search form (wide)'
+  label: 'Formulario de búsqueda (ancho)'
   label_display: '0'
   provider: search
   page_id: ''

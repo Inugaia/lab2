@@ -1,0 +1,37 @@
+uuid: db5f802d-5313-4358-b0c9-64cb859baea0
+langcode: es
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.media.media_library
+    - field.field.media.archivo_pdf.field_licencia
+    - field.field.media.archivo_pdf.field_media_file
+    - field.field.media.archivo_pdf.field_pdf
+    - image.style.medium
+    - media.type.archivo_pdf
+  module:
+    - image
+id: media.archivo_pdf.media_library
+targetEntityType: media
+bundle: archivo_pdf
+mode: media_library
+content:
+  thumbnail:
+    type: image
+    label: hidden
+    settings:
+      image_link: ''
+      image_style: medium
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  created: true
+  field_licencia: true
+  field_media_file: true
+  field_pdf: true
+  langcode: true
+  name: true
+  uid: true

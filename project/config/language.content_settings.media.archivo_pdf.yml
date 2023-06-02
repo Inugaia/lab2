@@ -1,0 +1,11 @@
+uuid: 161ba306-fc20-48d7-983b-5d01b2d3200d
+langcode: es
+status: true
+dependencies:
+  config:
+    - media.type.archivo_pdf
+id: media.archivo_pdf
+target_entity_type_id: media
+target_bundle: archivo_pdf
+default_langcode: site_default
+language_alterable: false

@@ -1,0 +1,27 @@
+uuid: 5031e0c4-5fb0-4bae-96c2-e1f91ac7de63
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.media.field_media_file
+    - media.type.archivo_pdf
+  module:
+    - file
+id: media.archivo_pdf.field_media_file
+field_name: field_media_file
+entity_type: media
+bundle: archivo_pdf
+label: Archivo
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:file'
+  handler_settings: {  }
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  file_extensions: 'txt doc docx pdf'
+  max_filesize: ''
+  description_field: false
+field_type: file

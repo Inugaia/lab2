@@ -1,9 +1,9 @@
 _core:
   default_config_hash: VDJxTZtQR21qB4lvOq8zszJZLvLKrSPQpdn2E3T71Ww
-langcode: en
-uuid: e9d69d5a-8b53-4fd8-b9b1-881615127e84
-name: 'EW Training Playground'
-mail: admin@example.com
+langcode: es
+uuid: ccc860e5-aa26-4bfc-aef6-65bc2c373d66
+name: lab2
+mail: uwu@gmail.com
 slogan: ''
 page:
   403: ''
@@ -11,4 +11,4 @@ page:
   front: /node
 admin_compact_mode: false
 weight_select_max: 100
-default_langcode: en
+default_langcode: es
